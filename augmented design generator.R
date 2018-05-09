@@ -94,8 +94,3 @@ names(data_list)=c("Entry map","Field map","combined map","Entry list")
 return(for(i in names(data_list)){write.csv(data_list[[i]], paste0(i,".csv"))})
 }
 
-ACBD_generator(3,147,24,1,"/Users/Rorshach/Desktop")
-ACBD_generator(3,153,25,1,"C:/Users/Jia/Desktop")
-ACBD_generator(3,193,24,1,"C:/Users/Jia/Desktop")
-ACBD_generator(3,193,27,9,"C:/Users/Jia/Desktop")
-
